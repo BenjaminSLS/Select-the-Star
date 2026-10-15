@@ -31,7 +31,7 @@
 ## Project Structure
 
 ```text
-├── guessing_game.py       # Entry point; imports all necessary modules
+├── cli-guessing_game.py     # Entry point; imports all necessary modules
 ├── images/
 │   ├── image_01.png         # Gameplay example 1
 │   └── image_02.png         # Gameplay example 2
