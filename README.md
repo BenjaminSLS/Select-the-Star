@@ -1,6 +1,6 @@
 <div align="center">
 
-# Select_the_Star - Try to Select the Randomly set Star
+# Select-the-Star - Try to Select the Randomly set Star
 
 ![Python](https://img.shields.io/badge/Python-3-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
@@ -30,10 +30,9 @@
 ## Project Structure
 
 ```text
-├── select_the_star.py       # Entry point; imports all necessary modules
+├── select-the-star.py # Game
 ├── images/
-│   ├── image_01.png         # Gameplay example 1
-│   └── image_02.png         # Gameplay example 2
+│   └── image_01.png   # Gameplay example
 └── LICENSE
 ```
 
@@ -55,9 +54,9 @@ Clone this repository using the **Clone** button above, or download the source a
 ### For use of the terminal
 
 ```bash
-mkdir ~/Code/select_the_star
+mkdir ~/Code/select-the-star
 
-# Clone or extract this repository into ~/Code/escape/
+# Clone or extract this repository into ~/Code/select-the-star/
 ```
 
 **Notes:**
@@ -69,9 +68,9 @@ The repository can be downloaded manually and be placed in any directory of your
 ### Start the Game
 
 ```bash
-cd ~/Code/select_the_star
+cd ~/Code/select-the-star
 
-python3 select_the_star.py
+python3 select-the-star.py
 ```
 
 ### Play the Game
@@ -84,7 +83,7 @@ python3 select_the_star.py
 
 - **Standard library fluency:** used `os` and `sys` to clear the terminal and handle clean mid-game exits without external dependencies.
 - **Documentation and version control:** wrote user-facing install/play instructions and tracked the project with Git.
-- **Random generation:** used `random` to randomly generate a number for the star to be located on the rows and columns each time the player can move on.
+- **Random generation:** used `random` to randomly generate a number for the row and column the number will be located in each time the user guesses both.
 
 ## License
 
