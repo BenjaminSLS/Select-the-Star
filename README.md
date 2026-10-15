@@ -1,11 +1,11 @@
 <div align="center">
 
-# CLI-Guessing-Game - Try to Guess the Random Star
+# Select_the_Star - Try to Select the Randomly set Star
 
 ![Python](https://img.shields.io/badge/Python-3-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-*A command-line, interface-based 'guessing' game built with [Python](https://www.python.org/).*
+*A command-line, interface-based game where you need to input the location of the star built with [Python](https://www.python.org/).*
 
 ## Gameplay Example
 
@@ -30,7 +30,7 @@
 ## Project Structure
 
 ```text
-├── cli-guessing_game.py     # Entry point; imports all necessary modules
+├── select_the_star.py       # Entry point; imports all necessary modules
 ├── images/
 │   ├── image_01.png         # Gameplay example 1
 │   └── image_02.png         # Gameplay example 2
@@ -55,7 +55,7 @@ Clone this repository using the **Clone** button above, or download the source a
 ### For use of the terminal
 
 ```bash
-mkdir ~/Code/guessing_game/
+mkdir ~/Code/select_the_star
 
 # Clone or extract this repository into ~/Code/escape/
 ```
@@ -69,9 +69,9 @@ The repository can be downloaded manually and be placed in any directory of your
 ### Start the Game
 
 ```bash
-cd ~/Code/guessing_game/
+cd ~/Code/select_the_star
 
-python3 cli-guessing_game.py
+python3 select_the_star.py
 ```
 
 ### Play the Game

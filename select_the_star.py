@@ -8,9 +8,9 @@ def clear_screen():
 def user_input(information):
     guess = input(information)
 
-    if guess == "exit":
+    if guess.lower() == "exit":
         sys.exit()
-    elif guess == "Y":
+    elif guess.lower() == "y":
         pass
     else:
         try:
@@ -41,7 +41,7 @@ def random_location(row_column):
     return star_row, star_column
 
 def main():
-    print("Welcome to CLI-Guessing Game!\n")
+    print("Welcome to Select_the_Star!\n")
 
     user_input("Start Game?\n'y' or 'exit': ")
 
@@ -73,10 +73,18 @@ def main():
                     break
                 else:
                     chance -= 1
-                    print(f"Try again. You have {chance} chances left.\n")
+
+                    if chance > 0:
+                        print(f"Try again. You have {chance} chances left.\n")
+                    else:
+                        print("You are out of attempts!")
             else:
                 chance -= 1
-                print(f"Try again. You have {chance} chances left.\n")
+
+                if chance > 0:
+                    print(f"Try again. You have {chance} chances left.\n")
+                else:
+                    print("You are out of attempts!")
 
         if chance <= 0:
             break
