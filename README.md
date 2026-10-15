@@ -10,20 +10,19 @@
 ## Gameplay Example
 
 ![Gameplay Screenshot 1](./images/image_01.png)
-![Gameplay Screenshot 2](./images/image_02.png)
 
 </div>
 
 ## Features
 
-1. The `os` and `sys` modules are used to give the player an improved experience by clearing all previous actions from the screen and allowing a smooth exit midway through the game.
+1. The `os`, `sys`, and `random` modules are used to give the player an improved experience by clearing all previous actions from the screen and allowing a smooth exit midway through the game.
 
 ## The Stack
 
 | Category | Details |
 | --- | --- |
 | Language | Python 3 |
-| Standard Library | `os`, `sys` |
+| Standard Library | `os`, `sys`, `random` |
 | Interface | Terminal / command-line (Unix-like) |
 | Tooling | Git, any Python-capable IDE (e.g. VSCodium) |
 | License | MIT |
@@ -72,23 +71,20 @@ The repository can be downloaded manually and be placed in any directory of your
 ```bash
 cd ~/Code/guessing_game/
 
-python3 guessing_game.py
+python3 cli-guessing_game.py
 ```
 
 ### Play the Game
 
 1. Enter a number to choose the location of a row or column.
 
-2. Entering anything other than an integer, 'exit', or y to begin the game will fail.
+2. Entering anything other than an integer, 'exit', or 'y' to begin the game will fail.
 
-## What I Learned
+## What I Improved
 
-- **Standard library fluency:** used `os` and `sys` to clear the terminal and
-  handle clean mid-game exits without external dependencies.
-- **Cross-platform awareness:** targeting Unix-like systems (Linux, macOS, BSD,
-  WSL) and planning concrete Windows support.
-- **Documentation and version control:** wrote user-facing install/play
-  instructions and tracked the project with Git.
+- **Standard library fluency:** used `os` and `sys` to clear the terminal and handle clean mid-game exits without external dependencies.
+- **Documentation and version control:** wrote user-facing install/play instructions and tracked the project with Git.
+- **Random generation:** used `random` to randomly generate a number for the star to be located on the rows and columns each time the player can move on.
 
 ## License
 
